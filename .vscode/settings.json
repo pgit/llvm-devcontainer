@@ -6,7 +6,7 @@
 
     "cmake.configureOnOpen": false,
     "cmake.buildDirectory": "${workspaceFolder}/build",
-    "cmake.sourceDirectory": "${workspaceFolder}/llvm",
+    "cmake.sourceDirectory": "${workspaceFolder}/llvm-project/llvm",
     "cmake.configureArgs": [
         "-DLLVM_TARGETS_TO_BUILD=Native",
         "-DLLVM_ENABLE_PROJECTS=clang;clang-tools-extra"
